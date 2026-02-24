@@ -1,7 +1,27 @@
 {
+  "name": "proyecto_hospisoft",
+  "version": "1.0.0",
+  "description": "<!-- historial de lo que ocurra durante el proyecto -->\r ## BITACORA DEL PROYECTO",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "js",
+    "hospisoft",
+    "crud"
+  ],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "command": "^1.1.1",
     "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
     "env": "^0.0.2",
     "express": "^5.2.1",
     "mysql2": "^3.17.1",
